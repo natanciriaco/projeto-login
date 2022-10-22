@@ -16,7 +16,7 @@
 
 body,html{
     height: 100vh;
-    background-color: rgb(107, 29, 180);
+    background-color: #5f2c82;
 }
 
 section{
@@ -57,5 +57,19 @@ section{
     font-size: 0.9em;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
     text-align: left;
+}
+
+.input{
+    border: 1px solid #5f2c82;
+}
+
+p .enviar{
+    width: 240px;
+    height: 40px;
+    color: white;
+    background-color: #49a09d;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
 }
