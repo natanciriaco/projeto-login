@@ -7,7 +7,7 @@
 */
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
     margin: 0px;
     padding: 0px;
     list-style-type: none;
@@ -16,6 +16,7 @@
 
 body,html{
     height: 100vh;
+    width: 100vw;
     background-color: #5f2c82;
 }
 
@@ -24,8 +25,8 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 260px;
-    height: 450px;
+    width: 282px;
+    height: 550px;
 }
 
 #imagem{
@@ -48,7 +49,7 @@ section{
 }
 
 #formulario h1{
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-align: center;
     padding: 6px;
 }
@@ -61,15 +62,63 @@ section{
     text-align: left;
 }
 
-.input{
-    border: 1px solid #5f2c82;
+.inputs{
+    position: relative;
+    background-color: #5f2c82;
+    width: 253px;
+    height: 44px; 
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border: 2px solid #5f2c82;
+    border-radius: 10px;
 }
 
-p .enviar{
-    width: 240px;
+.input{
+    position: absolute;
+    left: 19%;
+    font-size: 1em;
+    background-color: #94cfcd;
+    border: 1px solid #94cfcd;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px; 
+    padding: 10px;
+    text-align: left;
+}
+
+input:focus{
+    background-color: white;
+    outline: 0;
+}
+
+.entrar{
+    font-size: 1em;
+    width: 253px;
     height: 40px;
+    margin-top: 10px;
     color: white;
-    background-color: #49a09d;
+    background-color: #53aaa7;
     border: 1px solid rgba(0, 0, 0, 0.212);
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.entrar:hover{
+    background-color: #2d6462;
+}
+
+.esqueci{
+    width: 253px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: white;
+    color: #2d6462;
+    border: 1px solid #2d6462c2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.esqueci:hover{
+    color: white;
+    background-color: #2d6462;
 }

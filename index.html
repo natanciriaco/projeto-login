@@ -14,21 +14,21 @@
             <div id="imagem"></div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                <p class="texto">Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
+                    <div class="inputs">
+                        <p>
+                            <input class="input" required type="email" name="email" id="iemail" size="20" placeholder="seu email" autocomplete="email">
+                        </p>
+                    </div>
+                    <div class="inputs">
+                        <p>
+                            <input class="input" required type="password" name="senha" id="isenha" size="20" placeholder="sua senha" autocomplete="current-password">
+                        </p>
+                    </div>
                     <p>
-                        <label for="iemail">E-mail</label>
-                        <input class="input" required type="email" name="email" id="iemail" size="20" placeholder="seu email">
-                    </p>
-
-                    <p>
-                        <label for="isenha">Senha</label>
-                        <input class="input" required type="password" name="senha" id="isenha" size="20" placeholder="sua senha">
-                    </p>
-
-                    <p>
-                        <input class="enviar" type="submit" value="Entrar">
-                        <input type="button" value="Esqueci a senha">
+                        <input class="entrar" type="submit" value="Entrar">
+                        <a href="#"><input class="esqueci" type="button" value="Esqueci a senha"></a>
                     </p>
                 </form>
                 
