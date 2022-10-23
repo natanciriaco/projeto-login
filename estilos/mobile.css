@@ -30,7 +30,6 @@ section{
 }
 
 #imagem{
-    border-bottom: none;
     border-radius: 15px 15px 0px 0px;
     height: 40%;
     background-image: url(../imagens/background-tela-login.jpg);
@@ -61,10 +60,10 @@ section{
 }
 
 .material-icons{
-    font-size: 1.6em;
+    font-size: 1.8em;
     color: white;
     width: 40px;
-    padding: 6px;
+    padding: 4px;
 }
 
 .inputs{

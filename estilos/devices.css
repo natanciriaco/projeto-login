@@ -10,5 +10,39 @@
 */
 
 @media screen and (min-width:769px) and (max-width:992px) {
-    
+   section{
+    display: block;
+    width: 617px;
+    height: 274px;
+   }
+
+   #formulario{
+    float: right;
+    width: 70%;
+    height: 100%;
+    border-radius: 0px 15px 15px 0px;
+   }
+
+   #imagem{
+    float: left;
+    width: 30%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+   }
+
+   .inputs{
+    width: 406px;
+    height: 39px;
+   }
+
+   .input{
+    left: 10%;
+    width: 361px;
+    height: 35px;
+    border-radius: 10px;
+   }
+
+   .material-icons{
+    padding: 3px;
+   }
 }
