@@ -25,12 +25,11 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 282px;
-    height: 550px;
+    width: 276px;
+    height: 558px;
 }
 
 #imagem{
-    border: 1px solid rgba(0, 0, 0, 0.76);
     border-bottom: none;
     border-radius: 15px 15px 0px 0px;
     height: 40%;
@@ -42,7 +41,6 @@ section{
 
 #formulario{
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.76);
     border-top: none;
     border-radius: 0px 0px 15px 15px;
     height: 60%;
@@ -58,14 +56,22 @@ section{
     font-size: 0.9em;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 4px;
     text-align: left;
+}
+
+.material-icons{
+    font-size: 1.6em;
+    color: white;
+    width: 40px;
+    padding: 6px;
 }
 
 .inputs{
     position: relative;
+    left: 1%;
     background-color: #5f2c82;
-    width: 253px;
+    width: 247px;
     height: 44px; 
     margin-bottom: 5px;
     margin-left: 10px;
@@ -75,7 +81,7 @@ section{
 
 .input{
     position: absolute;
-    left: 19%;
+    left: 17%;
     font-size: 1em;
     background-color: #94cfcd;
     border: 1px solid #94cfcd;
@@ -108,9 +114,13 @@ input:focus{
 }
 
 .esqueci{
-    width: 253px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
     height: 40px;
     margin-top: 5px;
+    padding-top: 7px;
     background-color: white;
     color: #2d6462;
     border: 1px solid #2d6462c2;
@@ -120,5 +130,13 @@ input:focus{
 
 .esqueci:hover{
     color: white;
-    background-color: #2d6462;
+    background-color: #2d646279;
+}
+
+#esqueci{
+    font-size: 1em;
+    position: absolute;
+    color: #2d6462;
+    left: 65%;
+    top: 88%;
 }
