@@ -25,8 +25,8 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 276px;
-    height: 558px;
+    width: 275px;
+    height: 540px;
 }
 
 #imagem{
@@ -51,26 +51,30 @@ section{
     padding: 6px;
 }
 
+.texto{
+    margin-bottom: 10px;
+}
+
 #formulario p{
     font-size: 0.9em;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 4px;
     text-align: left;
 }
 
 .material-icons{
+    position: absolute;
     font-size: 1.8em;
     color: white;
     width: 40px;
-    padding: 4px;
+    padding: 6px;
 }
 
 .inputs{
     position: relative;
     left: 1%;
     background-color: #5f2c82;
-    width: 247px;
+    width: 248px;
     height: 44px; 
     margin-bottom: 5px;
     margin-left: 10px;
@@ -80,11 +84,11 @@ section{
 
 .input{
     position: absolute;
-    left: 17%;
-    font-size: 1em;
+    left: 18%;
+    font-size: 1.1em;
     background-color: #94cfcd;
-    border: 1px solid #94cfcd;
-    border-radius: 5px;
+    border: 1px solid #5f2c82;
+    border-radius: 10px;
     width: 200px;
     height: 40px; 
     padding: 10px;
@@ -97,14 +101,16 @@ input:focus{
 }
 
 .entrar{
+    position: relative;
+    left: 1%;
     font-size: 1em;
-    width: 253px;
+    width: 248px;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 8px;
     color: white;
     background-color: #53aaa7;
     border: 1px solid rgba(0, 0, 0, 0.212);
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
 }
 
@@ -113,10 +119,12 @@ input:focus{
 }
 
 .esqueci{
+    position: relative;
+    left: 1%;
     display: block;
     text-decoration: none;
     text-align: center;
-    width: 100%;
+    width: 248px;
     height: 40px;
     margin-top: 5px;
     padding-top: 7px;
@@ -136,6 +144,6 @@ input:focus{
     font-size: 1em;
     position: absolute;
     color: #2d6462;
-    left: 65%;
-    top: 88%;
+    left: 66%;
+    top: 18.4%;
 }
