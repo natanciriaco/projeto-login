@@ -27,7 +27,7 @@ section{
     transform: translate(-50%,-50%);
     width: 275px;
     height: 540px;
-    transition: width .5s, height .5s;
+    transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
 
