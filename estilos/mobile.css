@@ -149,3 +149,7 @@ input:focus{
     left: 163px;
     top: 6px;
 }
+
+:-webkit-border-radius{
+    border-radius: 6px;
+}
