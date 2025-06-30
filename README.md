@@ -1,1 +1,1 @@
-Tela de Login Responsiva com HTML e CSS
+Tela de Login Responsiva com HTML e CSS. Site responsivo.
